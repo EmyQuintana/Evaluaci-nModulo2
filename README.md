@@ -1,6 +1,6 @@
 # 🚀 CiberSegura - Portal Educativo de Ciberseguridad
 
-![Vista Previa del Proyecto](assets/img/preview.jpg)
+![Vista Previa del Proyecto](assets/img/preview.JPG)
 
 ## 🎯 Contexto del Proyecto
 
