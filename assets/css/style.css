@@ -1,0 +1,155 @@
+/*
+   ESTILO INSPIRADO EN NIST.GOV
+   Colores: Azul Institucional (#003366), Azul Enlace (#005EA2), Fondo Gris (#f0f0f0)
+   Fuentes: 'Merriweather' (Titulos), 'Source Sans Pro' (Cuerpo)
+
+/* --- 1. Tipografía y Bases --- */
+:root {
+    --nist-blue-dark: #0e3c67; /* Azul oscuro cabecera */
+    --nist-blue-link: #005ea2; /* Azul enlaces */
+    --nist-gray-bg: #f0f0f0;
+    --nist-text-dark: #1b1b1b;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--nist-text-dark);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+a {
+    color: var(--nist-blue-link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--nist-blue-dark);
+}
+
+/* --- 2. Barra Superior Gobierno (Gov Banner) --- */
+.gov-banner {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 0.25rem 0;
+}
+
+/* --- 3. Navbar Institucional --- */
+.nist-navbar {
+    background-color: var(--nist-blue-dark) !important;
+    padding: 1rem 0;
+    border-bottom: 4px solid #00a6d2; /* Acento celeste típico de webs gov */
+}
+
+.brand-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.brand-subtitle {
+    font-size: 0.75rem;
+    font-weight: 300;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem !important;
+    color: white !important;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
+
+/* --- 4. Hero Section --- */
+.hero-section {
+    background: linear-gradient(rgba(14, 60, 103, 0.9), rgba(14, 60, 103, 0.8)), url('../img/Nist2.0.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* --- 5. Componentes: Acordeón --- */
+.nist-accordion .accordion-button {
+    background-color: #f8f9fa;
+    color: var(--nist-blue-dark);
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    box-shadow: none; /* Quita el brillo azul de bootstrap */
+}
+
+.nist-accordion .accordion-button:not(.collapsed) {
+    background-color: var(--nist-blue-dark);
+    color: white;
+}
+
+.nist-accordion .accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 0; /* Bordes cuadrados estilo institucional */
+    margin-bottom: 5px;
+}
+
+/* --- 6. Componentes: Tarjetas (Cards) --- */
+.nist-card {
+    border: 1px solid #e0e0e0;
+    border-top: 5px solid var(--nist-blue-dark);
+    border-radius: 0;
+    transition: transform 0.2s;
+}
+
+.nist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-divider {
+    border-top: 2px solid #00a6d2;
+    width: 50px;
+    margin: 1rem 0;
+    opacity: 1;
+}
+
+.read-more {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* --- 7. Footer --- */
+.nist-footer {
+    background-color: #1b1b1b;
+    color: white;
+    border-top: 5px solid #00a6d2;
+}
+
+.nist-footer h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e0e0e0;
+}
+
+.nist-footer a {
+    color: #cfcfcf;
+}
+
+.nist-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #111;
+    color: #888;
+}
