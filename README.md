@@ -1,7 +1,5 @@
 # 🚀 CiberSegura - Portal Educativo de Ciberseguridad
 
-![Status](https://img.shields.io/badge/Status-Finalizado-success)
-![Technology](https://img.shields.io/badge/Tech-HTML5%20%7C%20Bootstrap%205%20%7C%20JS-blue)
 ![Vista Previa del Proyecto](assets/img/preview.jpg)
 
 ## 🎯 Contexto del Proyecto
@@ -20,7 +18,7 @@ Deberás diseñar un sitio web de tres páginas con el siguiente contenido:
 
 Introducción a la ciberseguridad.
 Barra de navegación con enlaces a las demás secciones.
-Imagen destacada con un mensaje llamativo. ![Banner]()
+
 ⚠️ Amenazas Comunes
 
 Información sobre ataques cibernéticos como phishing, ransomware, malware y ataques DDoS.
