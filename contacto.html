@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad Total | Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="gov-banner">
+        <div class="container d-flex align-items-center">
+            <span class="flag-icon me-2">🇨🇱</span>
+            <small>Portal educativo de ciberseguridad alineado con ANCI y NIST CSF 2.0- Desarrollado por Emily Quintana</small>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark nist-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <div class="d-flex flex-column">
+                    <span class="brand-title">CIBERSEGURA</span>
+                    <span class="brand-subtitle">PORTAL EDUCATIVO</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMobile">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="amenazas.html">AMENAZAS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="consejos.html">CONSEJOS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white py-5" style="background: linear-gradient(rgba(14, 60, 103, 0.9), rgba(14, 60, 103, 0.8)), url('assets/img/lock-bg.jpg') center/cover;">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold font-serif mb-3">Contáctanos</h1>
+                    <p class="lead mb-0">Estamos aquí para orientarte en ciberseguridad. Envíanos tus dudas o reporta incidentes.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mt-5 mb-5">
+        <div class="row g-5">
+            
+            <div class="col-lg-7">
+                <div class="p-4 bg-white border border-secondary-subtle rounded shadow-sm">
+                    <h3 class="font-serif text-primary-dark mb-4"><i class="bi bi-envelope-paper-fill me-2"></i> Envíanos un mensaje</h3>
+                    
+                    <form id="contactForm" class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <label for="email" class="form-label fw-bold small">Correo Electrónico</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                                </div>
+                                <div class="invalid-feedback">Ingresa un correo válido.</div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="asunto" class="form-label fw-bold small">Asunto</label>
+                                <input type="text" class="form-control" id="asunto" placeholder="Motivo del mensaje" required>
+                                <div class="invalid-feedback">El asunto es obligatorio.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="mensaje" class="form-label fw-bold small">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="6" placeholder="Describe tu consulta..." required></textarea>
+                                <div class="invalid-feedback">El mensaje no puede estar vacío.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary fw-bold px-5 w-100">ENVIAR SOLICITUD</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div id="formSuccess" class="alert alert-success mt-3 d-none text-center">
+                        <i class="bi bi-check-circle-fill me-2"></i> ¡Mensaje enviado! Nos pondremos en contacto pronto.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                
+                <div class="card nist-card mb-4 border-0 bg-light">
+                    <div class="card-body p-4">
+                        <h4 class="font-serif text-dark mb-4">Información de Contacto</h4>
+                        
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="fs-4 text-primary me-3"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-0">Dirección Central</h6>
+                                <p class="small text-muted mb-0">Av. Libertador Bernardo O'Higgins 1234, Santiago, Chile.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="fs-4 text-primary me-3"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-0">Teléfono de Ayuda</h6>
+                                <p class="small text-muted mb-0">+56 2 2345 6789</p>
+                                <small class="text-success fw-bold">Horario: Lunes a Viernes, 9:00 - 18:00</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="fs-4 text-primary me-3"><i class="bi bi-envelope-at-fill"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-0">Correo Electrónico</h6>
+                                <p class="small text-muted mb-0">contacto@cibersegura.cl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-primary text-white text-center p-4 shadow-sm border-0">
+                    <h4 class="font-serif mb-3">Síguenos en Redes</h4>
+                    <p class="small mb-4 opacity-75">Mantente informado sobre las últimas alertas de seguridad.</p>
+                    
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#" class="btn btn-light rounded-circle p-2" style="width: 50px; height: 50px; display:flex; align-items:center; justify-content:center;">
+                            <i class="bi bi-facebook fs-4 text-primary"></i>
+                        </a>
+                        <a href="#" class="btn btn-light rounded-circle p-2" style="width: 50px; height: 50px; display:flex; align-items:center; justify-content:center;">
+                            <i class="bi bi-twitter-x fs-4 text-dark"></i>
+                        </a>
+                        <a href="#" class="btn btn-light rounded-circle p-2" style="width: 50px; height: 50px; display:flex; align-items:center; justify-content:center;">
+                            <i class="bi bi-instagram fs-4 text-danger"></i>
+                        </a>
+                        <a href="#" class="btn btn-light rounded-circle p-2" style="width: 50px; height: 50px; display:flex; align-items:center; justify-content:center;">
+                            <i class="bi bi-linkedin fs-4 text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="nist-footer mt-auto">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-uppercase fw-bold mb-3">Sobre CiberSegura</h5>
+                    <p class="small">
+                        Iniciativa educativa basada en estándares NIST, SAFe y SAFEC. Promoviendo la cultura de seguridad digital en Chile.
+                    </p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="fw-bold mb-3">Menú</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="amenazas.html">Amenazas</a></li>
+                        <li><a href="consejos.html">Consejos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Recursos</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="https://anci.gob.cl/" target="_blank">ANCI Chile</a></li>
+                        <li><a href="https://www.csirt.gob.cl/" target="_blank">CSIRT Gobierno</a></li>
+                        <li><a href="https://www.nist.gov/" target="_blank">NIST.gov</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Contacto</h5>
+                    <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Santiago, Chile</p>
+                    <p class="small"><i class="bi bi-envelope-fill me-2"></i> contacto@cibersegura.cl</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container text-center">
+                <small>&copy; 2025 Portal de Ciberseguridad. Diseño inspirado en NIST.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -32,12 +32,18 @@ a:hover {
     color: var(--nist-blue-dark);
 }
 
-/* --- 2. Barra Superior Gobierno (Gov Banner) --- */
+/* --- 2. Barra Superior Banner) --- */
 .gov-banner {
     background-color: #000000;
     color: #ffffff;
-    font-size: 0.75rem;
-    padding: 0.25rem 0;
+    font-size: 1.3rem;    
+    padding: 0.8rem 0;     
+}
+
+.gov-hero {
+    min-height: 500px !important; /* !important fuerza el cambio si algo lo bloqueaba */
+    display: flex;
+    align-items: center;
 }
 
 /* --- 3. Navbar Institucional --- */
@@ -76,10 +82,11 @@ a:hover {
 
 /* --- 4. Hero Section --- */
 .hero-section {
-    background: linear-gradient(rgba(14, 60, 103, 0.9), rgba(14, 60, 103, 0.8)), url('../img/Nist2.0.webp');
+    background: linear-gradient(rgba(14, 60, 103, 0.9), rgba(14, 60, 103, 0.8));
     background-size: cover;
     background-position: center;
-    color: white;
+    color: white; 
+
 }
 
 /* --- 5. Componentes: Acordeón --- */
@@ -126,6 +133,14 @@ a:hover {
     font-weight: 700;
     font-size: 0.9rem;
     text-transform: uppercase;
+}
+/* --- Efecto Zoom en Imágenes de Consejos --- */
+.hover-card .card-img-top {
+    transition: transform 0.3s ease; /* Suaviza la animación */
+}
+
+.hover-card:hover .card-img-top {
+    transform: scale(1.05); /* Aumenta el tamaño un 5% al pasar el mouse */
 }
 
 /* --- 7. Footer --- */

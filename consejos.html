@@ -7,30 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciberseguridad Total | Consejos y Test</title>
 
-    <!-- Fuentes NIST (Google Fonts) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Iconos de Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <!-- Tus estilos personalizados -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!-- BARRA SUPERIOR (Estilo Gobierno) -->
     <div class="gov-banner">
         <div class="container d-flex align-items-center">
             <span class="flag-icon me-2">🇨🇱</span>
-            <small>Portal educativo alineado con ANCI y NIST CSF 2.0</small>
+            <small>Portal educativo de ciberseguridad alineado con ANCI y NIST CSF 2.0- Desarrollado por Emily Quintana</small>
         </div>
     </div>
 
-    <!-- NAVBAR (Estilo NIST) -->
     <nav class="navbar navbar-expand-lg navbar-dark nist-navbar sticky-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -53,7 +47,6 @@
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
     <header class="bg-primary text-white py-5" style="background: linear-gradient(rgba(14, 60, 103, 0.9), rgba(14, 60, 103, 0.8)), url('assets/img/lock-bg.jpg') center/cover;">
         <div class="container py-4 text-center">
             <h1 class="display-4 fw-bold font-serif mb-3">Guía de Buenas Prácticas</h1>
@@ -64,17 +57,14 @@
         </div>
     </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main class="container mt-5">
 
-        <!-- SECCIÓN 1: CONSEJOS CLAVE (Estilo Tarjetas NIST) -->
         <div class="row mb-5">
             <div class="col-12 text-center mb-4">
                 <h2 class="section-title text-primary-dark font-serif">Pilares de Ciberhigiene</h2>
                 <p class="text-muted">Medidas esenciales para proteger tu identidad y activos digitales.</p>
             </div>
 
-            <!-- Consejo 1: 2FA -->
             <div class="col-md-6 mb-4">
                 <div class="card nist-card h-100">
                     <div class="card-body">
@@ -92,7 +82,6 @@
                 </div>
             </div>
 
-            <!-- Consejo 2: Contraseñas -->
             <div class="col-md-6 mb-4">
                 <div class="card nist-card h-100">
                     <div class="card-body">
@@ -110,7 +99,6 @@
                 </div>
             </div>
 
-            <!-- Consejo 3: Phishing -->
             <div class="col-md-6 mb-4">
                 <div class="card nist-card h-100">
                     <div class="card-body">
@@ -128,7 +116,6 @@
                 </div>
             </div>
 
-            <!-- Consejo 4: Respaldos -->
             <div class="col-md-6 mb-4">
                 <div class="card nist-card h-100">
                     <div class="card-body">
@@ -147,72 +134,55 @@
             </div>
         </div>
 
-        <!-- SECCIÓN 2: CAMPAMENTOS RECIENTES (Ciberconsejos ANCI) -->
         <div class="row mb-5">
             <div class="col-12 text-center mb-4">
                 <h2 class="section-title text-primary-dark font-serif">Campañas Recientes</h2>
                 <p class="text-muted">Material educativo y alertas ciudadanas basadas en ANCI.</p>
             </div>
 
-            <!-- Tarjeta 1: Black Friday (Amarillo) -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm hover-card overflow-hidden">
-                    <div class="p-4 text-center d-flex flex-column justify-content-center align-items-center position-relative" style="background-color: #c9b038; color: white; min-height: 180px;">
-                        <h3 class="fw-bold border-2 border-white border px-3 py-1 mb-3 position-relative z-1" style="transform: rotate(-2deg); font-family: 'Source Sans Pro', sans-serif;">CIBERCONSEJOS</h3>
-                        <i class="bi bi-cart-check-fill display-1 position-relative z-1"></i>
-                        <div class="position-absolute top-0 start-0 w-100 h-100 bg-white opacity-10" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 10px 10px;"></div>
-                    </div>
-                    <div class="card-body">
+                    <img src="assets/img/consejo-blackfriday.jpg" class="card-img-top" alt="Consejo Black Friday">
+                    <div class="card-body pt-2">
                         <p class="small text-muted mb-1"><i class="bi bi-calendar3 me-2"></i>Noviembre 2025</p>
                         <h5 class="card-title fw-bold text-dark">¡Compra con precaución!</h5>
                         <p class="card-text small text-secondary">
                             En eventos como Black Friday o CyberDay, verifica siempre que el sitio sea oficial antes de ingresar tu tarjeta.
                         </p>
-                        <a href="#" class="btn btn-outline-warning btn-sm w-100 fw-bold text-dark mt-2 border-2">Ver video campaña</a>
+                        <a href="https://anci.gob.cl/ciberconsejos/" target="_blank" class="btn btn-outline-warning btn-sm w-100 fw-bold text-dark mt-2 border-2">Ver video campaña</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Tarjeta 2: Control Parental (Azul) -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm hover-card overflow-hidden">
-                    <div class="p-4 text-center d-flex flex-column justify-content-center align-items-center position-relative" style="background-color: #0066cc; color: white; min-height: 180px;">
-                        <h3 class="fw-bold border-2 border-white border px-3 py-1 mb-3 position-relative z-1" style="transform: rotate(-2deg); font-family: 'Source Sans Pro', sans-serif;">CIBERCONSEJOS</h3>
-                        <i class="bi bi-people-fill display-1 position-relative z-1"></i>
-                        <div class="position-absolute top-0 start-0 w-100 h-100 bg-white opacity-10" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 10px 10px;"></div>
-                    </div>
-                    <div class="card-body">
+                    <img src="assets/img/consejo-parental.jpg" class="card-img-top" alt="Consejo Control Parental">
+                    <div class="card-body pt-2">
                         <p class="small text-muted mb-1"><i class="bi bi-calendar3 me-2"></i>Noviembre 2025</p>
                         <h5 class="card-title fw-bold text-dark">Control Parental</h5>
                         <p class="card-text small text-secondary">
                             Protege a los menores de edad configurando filtros de contenido y supervisando su actividad en línea.
                         </p>
-                        <a href="#" class="btn btn-outline-primary btn-sm w-100 fw-bold mt-2 border-2">Descargar Guía</a>
+                        <a href="https://anci.gob.cl/ciberconsejos/" target="_blank" class="btn btn-outline-primary btn-sm w-100 fw-bold mt-2 border-2">Descargar Guía</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Tarjeta 3: Phishing (Rojo) -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm hover-card overflow-hidden">
-                    <div class="p-4 text-center d-flex flex-column justify-content-center align-items-center position-relative" style="background-color: #e63946; color: white; min-height: 180px;">
-                        <h3 class="fw-bold border-2 border-white border px-3 py-1 mb-3 position-relative z-1" style="transform: rotate(-2deg); font-family: 'Source Sans Pro', sans-serif;">CIBERCONSEJOS</h3>
-                        <i class="bi bi-telephone-x-fill display-1 position-relative z-1"></i>
-                        <div class="position-absolute top-0 start-0 w-100 h-100 bg-white opacity-10" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 10px 10px;"></div>
-                    </div>
-                    <div class="card-body">
+                    <img src="assets/img/consejo-phishing.jpg" class="card-img-top" alt="Consejo Phishing">
+                    <div class="card-body pt-2">
                         <p class="small text-muted mb-1"><i class="bi bi-calendar3 me-2"></i>Octubre 2025</p>
                         <h5 class="card-title fw-bold text-dark">Phishing Telefónico</h5>
                         <p class="card-text small text-secondary">
                             Si perdiste tu celular, ignora mensajes que te pidan la clave de iCloud o Google para "rastrearlo".
                         </p>
-                        <a href="#" class="btn btn-outline-danger btn-sm w-100 fw-bold mt-2 border-2">Leer Alerta</a>
+                        <a href="https://anci.gob.cl/ciberconsejos/" target="_blank" class="btn btn-outline-danger btn-sm w-100 fw-bold mt-2 border-2">Leer Alerta</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- LLAMADO A LA ACCIÓN + FORMULARIO DESPLEGABLE -->
         <div class="container mb-5 bg-white p-4 border-start border-4 border-warning shadow-sm">
             <div class="row align-items-center">
                 <div class="col-md-8">
@@ -222,7 +192,6 @@
                     </p>
                 </div>
                 <div class="col-md-4 text-end">
-                    <!-- BOTÓN QUE ABRE EL COLLAPSE -->
                     <button class="btn btn-outline-primary fw-bold px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContacto" aria-expanded="false" aria-controls="collapseContacto">
                         CONTÁCTANOS <i class="bi bi-chevron-down ms-2"></i>
                     </button>
@@ -230,21 +199,18 @@
             </div>
         </div>
 
-        <!-- SECCIÓN 3: FORMULARIO DE CONTACTO (OCULTO EN COLLAPSE) -->
         <div class="collapse" id="collapseContacto">
             <section class="mb-5 py-5 bg-light rounded px-4 border border-secondary-subtle">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="d-flex justify-content-between align-items-center mb-4">
                             <h2 class="text-center font-serif text-dark m-0">Formulario de Contacto</h2>
-                            <!-- Botón para cerrar (opcional, por usabilidad) -->
                             <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#collapseContacto" aria-label="Close"></button>
                         </div>
                         <p class="text-center text-muted mb-4 small">Solicita asesoría técnica o reporta un incidente.</p>
                         
                         <form id="contactForm" class="needs-validation" novalidate>
                             <div class="row g-3">
-                                <!-- Email -->
                                 <div class="col-md-6">
                                     <label for="email" class="form-label fw-bold small">Correo Electrónico</label>
                                     <div class="input-group">
@@ -254,28 +220,24 @@
                                     <div class="invalid-feedback">Ingresa un correo válido.</div>
                                 </div>
 
-                                <!-- Asunto -->
                                 <div class="col-md-6">
                                     <label for="asunto" class="form-label fw-bold small">Asunto</label>
                                     <input type="text" class="form-control" id="asunto" placeholder="Motivo del mensaje" required>
                                     <div class="invalid-feedback">El asunto es obligatorio.</div>
                                 </div>
 
-                                <!-- Mensaje -->
                                 <div class="col-12">
                                     <label for="mensaje" class="form-label fw-bold small">Mensaje</label>
                                     <textarea class="form-control" id="mensaje" rows="4" placeholder="Describe tu consulta..." required></textarea>
                                     <div class="invalid-feedback">El mensaje no puede estar vacío.</div>
                                 </div>
 
-                                <!-- Botón -->
                                 <div class="col-12 text-end">
                                     <button type="submit" class="btn btn-primary fw-bold px-4">ENVIAR MENSAJE</button>
                                 </div>
                             </div>
                         </form>
                         
-                        <!-- Alerta de éxito (Oculta por defecto) -->
                         <div id="formSuccess" class="alert alert-success mt-3 d-none text-center">
                             <i class="bi bi-check-circle-fill me-2"></i> ¡Mensaje enviado! Nos pondremos en contacto pronto.
                         </div>
@@ -286,7 +248,6 @@
 
     </main>
 
-    <!-- MODAL: TEST DE SEGURIDAD -->
     <div class="modal fade" id="modalTest" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
@@ -343,7 +304,6 @@
         </div>
     </div>
 
-    <!-- FOOTER (Estilo NIST) -->
     <footer class="nist-footer mt-auto">
         <div class="container py-5">
             <div class="row">
@@ -383,7 +343,6 @@
         </div>
     </footer>
 
-    <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
